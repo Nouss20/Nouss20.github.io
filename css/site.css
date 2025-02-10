@@ -1,0 +1,138 @@
+.navbar-brand {
+    font-family: "Gill Sans", sans-serif;
+    font-size: larger;
+    font-style: normal;
+}
+.body{
+    background-color: #EFECE7;
+}
+
+.body,
+.custom-color-navbar{
+    background-color:#EFECE7 !important;
+}
+.container-presentation{
+    
+    background-image: url('../img/1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter:opacity(60%);
+   
+    margin-top: 20px;
+    text-align: center;
+    padding: 200px;
+}    
+
+
+.container-presentation h1,
+.container-presentation h5,
+.container-presentation p
+{
+    color: #EFECE7;
+}
+    
+.container-apropos {
+    margin: 50px;
+}
+
+.apropos{
+    background-color: #D6CFC2;
+    padding: 30px;
+    padding-top: 10px;
+
+}
+.apropos p{
+  font-size: 20px;
+   line-height: 1.4em; 
+}
+
+.titre-projet{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.titre-projet{
+    text-align: center;
+    padding: 40px;
+}
+
+.titre-projet h1{
+   text-transform:uppercase;
+   color: #87765A;
+   
+}
+
+.container-projet{
+    margin-left: 50px;
+}
+
+.titre-competence{
+   text-align: center;
+   padding: 100px;
+}
+
+.titre-competence h1{
+    text-transform:uppercase;
+    color: #87765A;
+}
+
+.custom-color {
+    background-color: #87765A !important;  /* forcer l'application de la couleur */
+}
+
+.container-competence {
+    margin-left: 50px;
+    margin-top: 10;
+}
+
+.fin{
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: larger;
+    font-style: normal;
+}
+
+.card-texte {
+    padding: 2%;
+    text-align: center;
+}
+
+.container-chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.photo {
+    width: 70%; /* Ajuste la taille du carrousel */
+    margin: auto; /* Centre le carrousel */
+    text-align: center;
+}
+
+.photo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    width: 60%;  /* Ajuste la largeur des images */
+    height: auto; /* Garde les proportions */
+    display: block;
+    border-radius: 10px; /* Ajoute des coins arrondis */
+    margin: auto;
+}
+
+.titre-passion{
+    text-align: center;
+    padding: 20px;
+}
+
+.titre-passion h1{
+    text-transform:uppercase;
+    color: #87765A;
+    }

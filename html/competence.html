@@ -9,14 +9,14 @@
   </head>
   <body class="body">
 
-    <nav class="navbar navbar-expand-lg custom-color-navbar">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg custom-color-navbar"> <!-- responsive grâce à "navbar-expand-lg" + custom color classe bootstrap pour ue je puisse personnaliser la nav-->
+        <div class="container-fluid">  <!-- Conteneur fluide qui occupe toute la largeur de l'écran -->
           <a class="navbar-brand" href="#">Mon portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          </button>         <!-- Bouton de menu hamburger pour mobile qui permet d'afficher ou cacher la navigation -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- Conteneur pour les liens de navigation, qui se réduit en mobile -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- ms-auto = barre de navigation à droite avec un petit espace de 8px en bas du menu pour les mobiles mais qui est supprimer avec grand écran-->
               <li class="nav-item">
                 <a class="nav-link"  href="site.html#presentation">Présentation </a> <!-- redirige à la page site.html et nous faire descendre sur le bon bloc-->
               </li>
@@ -45,10 +45,11 @@
 </div>
 
 <div class="container-chart">
-    <canvas id="myChart"></canvas>
+    <canvas id="myChart"></canvas>  <!-- Conteneur pour afficher un graphique avec Chart.js en utilisant un élément <canvas> -->
+
 </div>
   
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>  <!-- Intégration de la bibliothèque Chart.js via CDN pour créer des graphiques -->
   <script type="text/javascript" src="../js/competence-chart.js"></script>
   
 <footer class="fin">

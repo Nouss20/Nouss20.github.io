@@ -114,15 +114,15 @@
 }
 
 .photo div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* utilise flexbox pour organiser le positionnement des images */
+    justify-content: center; /* centre les éléments à l'intérieur du div */
+    align-items: center; /* centre les éléments à l'intérieur du div */
 }
 
 .photo img {
     width: 60%;  /* Ajuste la largeur des images */
     height: auto; /* Garde les proportions */
-    display: block;
+    display: block; /*Change l'affichage des images pour qu'elles se comportent comme des éléments de type bloc */
     border-radius: 10px; /* Ajoute des coins arrondis */
     margin: auto;
 }

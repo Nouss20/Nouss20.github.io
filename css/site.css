@@ -5,6 +5,8 @@
 }
 .body{
     background-color: #EFECE7;
+    padding-top: 30px;
+    
 }
 
 .body,
@@ -136,3 +138,5 @@
     text-transform:uppercase;
     color: #87765A;
     }
+
+   
